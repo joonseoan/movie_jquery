@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Assignment2  </title> 
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="css/themes/a2.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile.structure-1.0rc2.min.css" /> 
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/index.js"></script>	
+
+</head>
+
+<body>
+
+	<!-- page 1 using data theme "A" I defined -->
+	<div id='page1' data-role='page' data-theme='a'>
+
+		<div data-role = 'header'></div>
+		
+		<div data-role = 'main'>
+
+			<!-- Placed user manual about swiping and tapping -->
+			<div data-role="collapsible">
+			
+				<h4>User Manual</h4>
+				
+				<p>Tap the picture for detail info</p>
+				<p>Swipe for different movies</p>
+ 				
+			</div>
+
+			<!-- A default set when the page opens for the first time  -->
+			<div>
+				<span><center><h3>JFK</h3></center></span>
+	 			
+	 			<a href= '#page2' data-transition = 'turn' class = 'ui-btn'>
+								
+					<img src = "images/jfk.PNG" alt = "jfk.PNG" width = '200'>
+								
+				</a>
+			
+			</div>
+			
+		</div>
+
+		<div data-role = 'footer' data-position = 'fixed' class = 'ui-btn'><center></center></div>
+
+	</div>
+
+	<div id='page2' data-role='page' data-theme='b'>
+
+		<div id = "header" data-role='header'></div>
+		<div data-role='main'>
+			
+			<!-- Create a table to place pictures and cast and its role -->
+			<div id="table"></div>
+
+			<div>
+
+				<!-- Collapsible for Reviews.
+				The contents about the review from XML data -->
+				<div id="collap1" data-role="collapsible">
+						<h4>Review1</h4>
+						<p></p>	
+				</div>
+				<div id="collap2" data-role="collapsible">
+					<h4>Review2</h4>
+					<p></p>
+				</div>
+				<div id="collap3" data-role="collapsible">
+					<h4>Review3</h4>
+					<p></p>
+				</div>
+
+				<!-- Description -->
+				<div id="collap4" data-role="collapsible">
+					<h4>Description</h4>
+					<p></p>
+				</div>
+			
+			</div>
+
+			<div data-role="navbar">
+	 			
+	 			<!-- Navigation Bar for each movie, a theare, and home pate -->
+				<ul id = "nav">
+					<li><a href="#">MovieWeb</a></li>
+					<li><a href="#">Theatre</a></li>
+					<li><a href="#page1" data-transition = 'turn'  class = 'ui-btn'>Home</a>
+	 			    </li>
+				</ul>
+		
+			</div> 	
+
+		</div>
+			 	
+		<div data-role = 'footer' data-position = 'fixed' class = 'ui-btn'><center></center></div>
+
+	</div>
+
+</body>
+
+</html>

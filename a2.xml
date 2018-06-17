@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+
+<anjo>
+
+	<movieRecommendation>
+
+		<appTitle>
+			Movie Recommendation
+		</appTitle>a
+		
+		<!-- Include your Sheridan Student number in the studentNumber attribute-->
+		<joonAn program = "Computer Programmer" studentNumber="991448483">
+					Joon An				
+		</joonAn>>
+
+		<movie>
+			<title poster = "jfk.PNG">JFK</title>
+			<description>
+				This acclaimed Oliver Stone drama presents the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison (Kevin Costner). When Garrison begins to doubt conventional thinking on the murder, he faces government resistance, and, after the killing of suspected assassin Lee Harvey Oswald (Gary Oldman), he closes the case. Later, however, Garrison reopens the investigation, finding evidence of an extensive conspiracy behind Kennedy's death.
+			</description>
+			<cast>
+					<name>Kevin Costner</name>
+					<role>Jim Garrison</role>
+				
+				
+					<name>Gary Oldman</name>
+					<role>Lee Harvey Oswald</role>
+				
+					<name>Tommy Lee Jones</name>
+					<role>Clay Shaw</role>
+			</cast>
+			<review>
+				Truth or not, this is an exceptional piece of cinema, deeply provoking and audacious.
+			</review>
+			<review>
+				"JFK" is a well-made work of suspense, intrigue, and drama, all based on trying to solve one of the greatest mysteries of our time.
+			</review>
+			<review>
+				As speculation, JFK is riveting. As proof, it's bunk.
+			</review>
+
+		</movie>
+		
+		<movie>
+			<title poster = "fantastic_four.PNG">Fantastic Four</title>
+			<description>
+				Transported to an alternate universe, four young outsiders gain superhuman powers as they alter their physical form in shocking ways. Reed Richards becomes Mr. Fantastic, able to stretch and twist his body at will, while pal Ben Grimm gains immense strength as the Thing. Johnny Storm becomes the Human Torch, able to control and project fire, while his sister Sue becomes the Invisible Woman. Together, the team must harness their new abilities to prevent Doctor Doom from destroying the Earth.
+			</description>
+			<cast>
+				<actor>
+					<name>Michael B. Jordan</name>
+					<role>Human Torch</role>
+				</actor>
+				<actor>
+					<name>Kate Mara</name>
+					<role>Susan Storm</role>
+				</actor>
+				<actor>
+					<name>Miles Teller</name>
+					<role>Mister Fantastic</role>
+				</actor>
+			</cast>
+			<review>
+				All the pieces were in place for a refreshing entry in the superhero genre, but Fantastic Four completely unravels at the halfway point.
+			</review>
+			<review>
+				Fantastic Four, despite the dogged efforts of its talented young cast, has nothing.
+			</review>
+			<review>
+				This iteration, directed by Josh Trank (Chronicle) is a dull, sour, claustrophobic mess: 80 minutes of tedious origin story followed by 20 minutes of more-tedious-still climax.
+			</review>
+
+		</movie>
+		
+		<movie>
+			<title poster = "planet_ape.PNG">War for the Planet of the Apes</title>
+			<description>
+				Caesar (Andy Serkis) and his apes are forced into a deadly conflict with an army of humans led by a ruthless colonel (Woody Harrelson). After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the colonel are pitted against each other in an epic battle that will determine the fate of both of their species and the future of the planet.
+			</description>
+			<cast>
+				<actor>
+					<name>Andy Kerkis</name>
+					<role>Caesar</role>
+				</actor>
+				<actor>
+					<name>Woody Harrelson</name>
+					<role>Colonel</role>
+				</actor>
+				<actor>
+					<name>Karin Konoval</name>
+					<role>Maurice</role>
+				</actor>
+			</cast>
+			<review>
+				This improbably magnificent film and Michael Giacchino’s majestic score are a perfect match. The apes are the good guys here, but the humans who made the movie do our species proud
+			</review>
+			<review>
+				This entry in the series, directed by Matt Reeves, is the grimmest episode so far, and also the strongest, a superb example of clear thinking wedded to inventive technique in popular filmmaking.
+			</review>
+			<review>
+				Director Matt Reeves follows the excellent Dawn of the Planet of the Apes with this even more complex, darker, smarter sequel, which seems destined to resonate longer than a typical popcorn movie.
+			</review>
+		</movie>
+
+	</movieRecommendation>
+
+</anjo>
